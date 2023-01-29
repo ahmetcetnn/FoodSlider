@@ -25,7 +25,7 @@ useEffect(() => {
    {popular.map((recipe)=> {
     return (
       <div className="wrapper" key={recipe.id}>
-        <h3>Popular Picks</h3>
+        <h3>Popular Picks.</h3>
 
   <Splide options={
     {
