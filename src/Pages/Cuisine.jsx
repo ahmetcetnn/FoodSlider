@@ -6,6 +6,7 @@ function Cuisine() {
     <div>
         
       CUİSİNE
+      You can choose ur favorite cuisine
     </div>
   )
 }
