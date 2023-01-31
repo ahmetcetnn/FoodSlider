@@ -3,6 +3,7 @@ import { Splide } from "@splidejs/react-splide";
 import { SplideSlide } from '@splidejs/react-splide';
 import styled from 'styled-components'
 import '@splidejs/react-splide/css';
+import {Link} from "react-router-dom"
 
 function Vaggie() {
 
@@ -40,9 +41,11 @@ useEffect(() => {
           return(
             <SplideSlide key={recipe.id}>
             <Card> 
+            <Link to= {'/recipe/'+recipe.id}>
               <p>{recipe.title}</p> 
               <img src={recipe.image} alt={recipe.title}/>
               <Gradient/>
+              </Link>
             </Card>
             </SplideSlide>
     
