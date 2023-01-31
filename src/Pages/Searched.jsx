@@ -7,7 +7,7 @@ import styled from 'styled-components';
 function Searched() {
 
 const [searchedRecipes,setSearchedRecipes]= useState([])
-let params = useParams;
+let params = useParams();
  
 const getSearched= async (name) =>{
     const data =await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=3311761e9882409381dfbb8ca1e01378&query=${name}`);
