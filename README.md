@@ -1,3 +1,7 @@
+In this work i tried to create food recipe page. I used react-router-dom, styled components, hooks, react-icons, react-splide and react motions. Its not my work. I watched this work (https://www.youtube.com/watch?v=xc4uOzlndAk&t=1803s)  and tried to understand whats happening there and copied. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
