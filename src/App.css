@@ -30,4 +30,11 @@ a{
   color: rgb(56,56,56);
   
 }
-
+.App{
+  background-color: whitesmoke;
+  color: black;
+}
+.dark{
+  background-color: black;
+  color: white;
+}

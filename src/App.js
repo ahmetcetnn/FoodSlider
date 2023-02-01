@@ -6,21 +6,41 @@ import Search from './Components/Search';
 import styled from 'styled-components';
 import {GiKnifeFork} from "react-icons/gi"
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+
+
+
+
+
+
+
 function App() {
+  const [theme,setTheme] =useState(false)
   return (
-    <div className="App">
+    <div className={theme ? "App"  : "dark" }>
       <BrowserRouter>
       <Nav>
         <GiKnifeFork/>
-        <Logo to={"/"}>likehome</Logo>
+        <Logo to={"/"}>mamakitchen</Logo>
       </Nav>
-      <Search/>
+      <Search/> <button onClick={() => setTheme(!theme)}>mod</button>
       <Category/>
       <Pages/>
       </BrowserRouter>
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
 const Logo = styled(Link)`
 text-decoration:none;
 font-size:1.8rem;

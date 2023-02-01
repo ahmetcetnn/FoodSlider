@@ -19,7 +19,8 @@ function Search() {
             <FaSearch></FaSearch>
     <input onChange={(e) => setInput(e.target.value)} 
     type="text" 
-    value={input}/>
+    value={input}
+    placeholder="What you wanna eat?"/>
         </div>
     </FormStyle>
   )
