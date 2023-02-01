@@ -21,7 +21,7 @@ useEffect(() => {
 
   const getPopular = async () =>{
     
-    const api =  await fetch (`https://api.spoonacular.com/recipes/random?apiKey=3311761e9882409381dfbb8ca1e01378&number=15`)
+    const api =  await fetch (`https://api.spoonacular.com/recipes/random?apiKey=3311761e9882409381dfbb8ca1e01378&number=45`)
     const data = await api.json();
     setPopular(data.recipes)
 

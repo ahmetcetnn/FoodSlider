@@ -19,7 +19,7 @@ useEffect(() => {
 
   const getVaggie = async () =>{
     
-    const api =  await fetch (`https://api.spoonacular.com/recipes/random?apiKey=3311761e9882409381dfbb8ca1e01378&number=15&tags=vegetarian`)
+    const api =  await fetch (`https://api.spoonacular.com/recipes/random?apiKey=3311761e9882409381dfbb8ca1e01378&number=45&tags=vegetarian`)
     const data = await api.json();
     setVaggie(data.recipes)
 
